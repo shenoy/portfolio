@@ -280,7 +280,7 @@ header {
 
 .landing-text {
   position: absolute;
-  top: 50%;
+  top: 60%;
   width: 100%;
   text-align: center;
   z-index: 1;
@@ -289,7 +289,7 @@ header {
 
 .landing-title {
   position: absolute;
-  top: 30%;
+  top: 40%;
   width: 100%;
   text-align: center;
   z-index: 1;
