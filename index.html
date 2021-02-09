@@ -32,7 +32,7 @@
     />
 
     <link rel="stylesheet" href="main.css" />
-    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <link rel="icon" type="image/png" href="images/favicon.ico" />
 
     <script
       src="https://kit.fontawesome.com/95dddf539b.js"
@@ -60,11 +60,10 @@
           <li>
             <a href="index.html" class="nav-link">Home</a>
           </li>
-         
+
           <li>
             <a href="#skills" class="nav-link">Skills</a>
           </li>
-          
 
           <li>
             <a href="#portfolio" class="nav-link">Portfolio</a>
@@ -72,16 +71,17 @@
           <li>
             <a href="#certifications" class="nav-link">Certifications</a>
           </li>
-          
+
           <li>
             <a href="#experience" class="nav-link">Experience</a>
           </li>
-                <li>
-                  <a href="#about" class="nav-link">About</a>
-                </li>
+          <li>
+            <a href="#about" class="nav-link">About</a>
+          </li>
         </ul>
       </nav>
-      <div class="container">
+      <div  data-aos="fade-up"
+     data-aos-duration="3000" class="container">
         <section class="landing-page">
           <div class="landing-title">
             <h1 class="first-name">Rajesh</h1>
@@ -96,7 +96,6 @@
         </section>
       </div>
     </header>
-    
 
     <!-- START SERVICES------------------------------------------- -->
 
@@ -148,7 +147,7 @@
         </div>
       </div>
     </section>
-  
+
     <!-- START OF PORTFOLIO==================================================== -->
 
     <section class="portfolio" id="portfolio">
@@ -809,50 +808,57 @@
     </section>
 
     <!-- END OF PORTFOLIO SECTION======================================================================================== -->
-   
 
-      <!-- START CERTIFICATIONS-------------------------------------- -->
-      
-      <section class="services" id="certifications">
-        <div class="container">
-          <div class="section-heading">
-            <h1>Certifications</h1>
-            <h6>My certifications</h6>
+    <!-- START CERTIFICATIONS-------------------------------------- -->
+
+    <section class="services" id="certifications">
+      <div class="container">
+        <div class="section-heading">
+          <h1>Certifications</h1>
+          <h6>My certifications</h6>
+        </div>
+
+        <div class="jumbotron my-skills shadow-lg p-2 mb-5" data-aos="fade-up">
+          <div class="skill" data-aos="fade-in" data-aos-delay="300">
+            <div class="icon-container-cert">
+              <img
+                src="images/OCP.png"
+                alt="OCP"
+                style="width: 200px; height: 180px"
+              />
+            </div>
+            <h1>Oracle Certified Professional - jan 2021</h1>
+            <p>
+              Concurrency | Fork - Join Framework | Functional Interfaces | Java
+              8 Date And Time API | Java Design Patterns | Java NIO.2 API | Java
+              SE 8 | JDBC | JDK 8 | Lambda Expressions | Localization | Oracle
+              Professional | Parallel Streams | Regular Expressions | Stream API
+              |
+            </p>
           </div>
-      
-          <div class="jumbotron my-skills shadow-lg p-2 mb-5" data-aos="fade-up">
-            <div class="skill" data-aos="fade-in" data-aos-delay="300">
-              <div class="icon-container-cert">
-                <img src="images/OCP.png" alt="OCP" style="width: 200px; height: 180px" />
-              </div>
-              <h1>Oracle Certified Professional - jan 2021</h1>
-              <p>
-                Concurrency | Fork - Join Framework | Functional Interfaces | Java
-                8 Date And Time API | Java Design Patterns | Java NIO.2 API | Java
-                SE 8 | JDBC | JDK 8 | Lambda Expressions | Localization | Oracle
-                Professional | Parallel Streams | Regular Expressions | Stream API
-                |
-              </p>
+
+          <div class="skill" data-aos="fade-in" data-aos-delay="600">
+            <div class="icon-container-cert">
+              <img
+                src="images/OCA.png"
+                alt="OCA"
+                style="width: 200px; height: 180px"
+              />
             </div>
-      
-            <div class="skill" data-aos="fade-in" data-aos-delay="600">
-              <div class="icon-container-cert">
-                <img src="images/OCA.png" alt="OCA" style="width: 200px; height: 180px" />
-              </div>
-              <h1>Oracle Certified Associate - Sep 2020</h1>
-              <p>
-                Java | Java 8 Date And Time API | Java Application Development |
-                Java SE 8 | JDK 8 | Lambda Expressions | Oracle Associate |
-                Oject-oriented Programming | General knowledge of Java platforms
-                and technologies
-              </p>
-            </div>
+            <h1>Oracle Certified Associate - Sep 2020</h1>
+            <p>
+              Java | Java 8 Date And Time API | Java Application Development |
+              Java SE 8 | JDK 8 | Lambda Expressions | Oracle Associate |
+              Oject-oriented Programming | General knowledge of Java platforms
+              and technologies
+            </p>
           </div>
         </div>
-      </section>
-      
-      <!-- END CERTIFICATIONS---------------------- -->
-      <!-- START OTHER CERTIFICATIONS---------------------- -->
+      </div>
+    </section>
+
+    <!-- END CERTIFICATIONS---------------------- -->
+    <!-- START OTHER CERTIFICATIONS---------------------- -->
 
     <section class="services" id="certifications">
       <div class="container">
@@ -948,7 +954,11 @@
           <h6>Myself</h6>
         </div>
         <div class="profile-img" data-aos="fade-down" data-aos-delay="300">
-          <image class="displayed" src="./images/shark640x480.jpg" alt=""></image>
+          <image
+            class="displayed"
+            src="./images/shark640x480.jpg"
+            alt=""
+          ></image>
         </div>
         <div class="about-details" data-aos="fade-up" data-aos-delay="300">
           <p class="portfolio-description">
@@ -960,7 +970,10 @@
           <div class="social-media">
             <ul class="nav-list">
               <li>
-                <a href="https://www.facebook.com/rajesh.shenoy.374549" class="icon-link">
+                <a
+                  href="https://www.facebook.com/rajesh.shenoy.374549"
+                  class="icon-link"
+                >
                   <i class="fab fa-facebook-square"></i>
                 </a>
               </li>
